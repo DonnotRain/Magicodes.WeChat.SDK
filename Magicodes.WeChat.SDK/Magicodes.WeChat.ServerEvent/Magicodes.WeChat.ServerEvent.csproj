@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Description>湖南心莱信息科技有限公司微信服务器事件以及相关封装工具包，以更好地和自己的业务结合，给予.NET Core 2.0。\n官方网址：http://xin-lai.com \n开源库地址:https://github.com/xin-lai \n博客地址：http://www.cnblogs.com/codelove/ \n交流QQ群（.NET 技术交流群）：85318032 \n小店地址：https://shop113059108.taobao.com/</Description>
     <Copyright>Copyright ©  2019</Copyright>
     <PackageProjectUrl>https://github.com/xin-lai</PackageProjectUrl>
@@ -10,9 +10,10 @@
     <Authors>雪雁</Authors>
     <Version>0.0.3</Version>
     <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Magicodes.WeChat.SDK.Core\Magicodes.WeChat.SDK.Core.csproj" />
